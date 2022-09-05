@@ -1159,6 +1159,9 @@ template {
         -ms-flex-pack: center;
             justify-content: center;
   }
+   .portfolio__item_krjk img {
+    width: 100%;
+  }
 }
 @media (max-width: 576px) {
   .container {
