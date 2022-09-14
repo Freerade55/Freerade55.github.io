@@ -1,0 +1,47 @@
+
+
+.footer {
+    min-height: 90px;
+        
+    background: rgba(90, 92, 97, 0.05);
+    display: flex;
+    justify-content: space-around;
+
+    &__social {
+        flex-basis: 40%;
+        height: 10%;
+        display: grid;
+        grid-template-columns: repeat(4, 50px);
+        column-gap: 38px;
+        justify-self: center;
+        align-self: center;
+        
+        
+    
+    }
+    
+    &__clinic {
+        flex-basis: 40%;
+
+        height: 10%;
+        justify-self: center;
+        align-self: center;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: right;
+
+        color: rgba(90, 92, 97, 0.7);
+      
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+

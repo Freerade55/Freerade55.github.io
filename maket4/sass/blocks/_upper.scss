@@ -1,0 +1,153 @@
+
+
+.upper {
+
+    display: grid;
+    grid-template-columns: 1fr 1140px 1fr;
+    grid-template-rows: repeat(1, minmax(849px, auto));
+
+ 
+    &__gradient {
+        @include gradient;
+    }
+
+    &__gradient-transform {
+        @include gradient;
+
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+    }
+
+    &__logo {
+        display: flex;
+        justify-content: center;
+        margin-top: 65px;
+    
+    }
+  
+
+    &__text {
+        line-height: 86px;
+        font-weight: 500;
+        font-size: 29.9073px;
+        line-height: 36px;
+
+        color: #8F3299;
+
+    }
+
+    &__text_mobile {
+        display: none;
+    }
+
+    &__event {
+        display: flex;
+        
+        justify-content: space-between;
+        margin-top: 61px;
+
+    }
+
+    &__big-img {
+        margin-left: 81px;
+       
+  
+    }
+
+
+
+    &__time {
+        font-weight: 800;
+        font-size: 24px;
+        text-align: center;
+        color: #5A5C61;
+    }
+
+    &__online {
+        margin-top: 66px;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 157%;
+        text-align: center;
+        color: #5A5C61;
+    }
+
+    &__live {
+        margin-top: 46px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 157%;
+
+        text-align: center;
+
+        color: rgba(90, 92, 97, 0.7);
+    }
+
+    &__eco-big {
+        margin-top: 58px;
+        font-weight: 700;
+        font-size: 136.84px;
+        line-height: 110px;
+        text-align: center;
+
+        @include color
+    }
+
+    &__simple-hard {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        text-align: center;
+
+        @include color
+    }
+
+
+
+    &__eco-steps {
+        display: none;
+    }
+
+
+   &__button {
+ 
+    display: block;
+    margin: 0 auto;
+    margin-top: 58px;
+    width: 344.15px;
+    height: 63.22px;
+    background: linear-gradient(244.77deg, #AB52CE 25.08%, #FE8687 73.48%), #C4C4C4;
+    border-radius: 41.7778px;
+    border: none;
+    cursor: pointer;
+
+    font-weight: 400;
+    font-size: 16.7111px;
+    text-align: center;
+    color: #FFFFFF;
+
+
+   
+
+   }
+
+
+   &__button_mobile {
+    display: none;
+   }
+ 
+
+
+
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"');
+@import 'base/mixins';
+@import 'blocks/upper';
+@import 'blocks/discount';
+@import 'blocks/translation';
+@import 'blocks/program';
+@import 'blocks/team';
+@import 'blocks/from-to';
+@import 'blocks/footer';
+
+@import "media";
+
+
+
+* {
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+

@@ -1,0 +1,86 @@
+
+.discount__wrapper_mobile {
+    display: none;
+}
+
+.discount {
+    min-height: 498px;
+    padding-top: 77px;
+    background: linear-gradient(0deg, rgba(90, 92, 97, 0.05), rgba(90, 92, 97, 0.05)), #FFFFFF;
+
+    &__wrapper {
+        display: flex;
+        margin: 0 auto;
+        width: 1140px;
+
+        justify-content: space-between;
+        
+
+    }
+    &__for-members {
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 157%;
+        text-align: center;
+        color: #5A5C61;
+    }
+    
+    &__percents {
+        font-weight: 700;
+        font-size: 118.966px;
+        line-height: 163px;
+        text-align: center;
+        @include color
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 157%;
+        text-align: center;
+        color: rgba(90, 92, 97, 0.7);
+    }
+
+    &__gifts {
+        position: relative;
+        width: 325px;
+        height: 341px;
+        
+       
+        
+    }
+    &__big-gift {
+       
+       width: 100%;
+       height: 100%;
+       position: absolute;
+       top: -55px;
+       left: 40px;
+       
+  
+      
+   
+    }
+
+    &__small-gift {
+    
+        position: absolute;
+        top: -40px;
+        left: 0x;
+        width: 111.43px;
+        height: 117px;
+      
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
