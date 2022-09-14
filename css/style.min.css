@@ -867,7 +867,7 @@ template {
 .portfolio__wrapper_landings {
   margin-top: 10px;
   display: grid;
-  grid-template: repeat(1, auto)/repeat(2, 270px);
+  grid-template: repeat(1, auto)/repeat(3, 270px);
   grid-auto-rows: 280px;
   gap: 5px;
 }
