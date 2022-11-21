@@ -19,7 +19,7 @@ buttonVhod.addEventListener( "click", event => {
 const getDataByInn = async (login, password) => {
 
 
-    const res = await fetch('http://85.175.216.81:5020/admin_enter', {
+    const res = await fetch('http://192.168.1.64:5020/admin_enter', {
         method:'POST',
         headers: {
             'content-type': 'application/json;charset=utf-8'
