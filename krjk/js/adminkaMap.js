@@ -131,6 +131,7 @@ const getDataByInn = async () => {
     })
     
     const json = await res.json()
+    console.log(json)
 
     json.forEach(x => {
         const newOption = document.createElement('option')
