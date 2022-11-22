@@ -121,7 +121,7 @@ add[0].addEventListener( "click", event => {
 const getDataByInn = async () => {
 
 
-    const res = await fetch('http://85.175.216.81:5021/select', {
+    const res = await fetch('https://freerade.pythonanywhere.com/select', {
         method:'GET',
         headers: {
             'content-type': 'application/json;charset=utf-8'
