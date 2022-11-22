@@ -121,7 +121,7 @@ add[0].addEventListener( "click", event => {
 const getDataByInn = async () => {
 
 
-    const res = await fetch('http://85.175.216.81:5021/select', {
+    const res = await fetch('https://85.175.216.81:5021/select', {
         method:'GET',
         headers: {
             'content-type': 'application/json;charset=utf-8'
@@ -358,7 +358,7 @@ allInputs.forEach(x => {
 
 
 const taskAdd = async (toBd) => {
-    const res = await fetch('http://85.175.216.81:5021/getTask', {
+    const res = await fetch('https://85.175.216.81:5021/getTask', {
         method:'POST',
         headers: {
             'content-type': 'application/json;charset=utf-8'
